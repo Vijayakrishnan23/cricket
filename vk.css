@@ -1,0 +1,63 @@
+
+
+.container {
+    max-width: 1200px; 
+    margin: 0 auto;
+    padding: 0 15px;
+    background-color:antiquewhite;
+}
+
+
+.div {
+    height: 90%;
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 15px;
+    border: 2px solid #f3f8f3; 
+    box-shadow: rgb(3, 3, 3) 0px 54px 55px, rgba(6, 7, 7, 0.986) 0px -12px 30px, rgba(0, 0, 0, 0.986) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    
+}
+
+.div img {
+    width:max-content%;
+    border-radius: 8px; 
+}
+
+.div h2 {
+    margin-top: 10px;
+    font-size: 2rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+}
+
+.div p {
+    font-size: 1.2rem;
+    color: black;
+    font-weight: 400;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px; 
+}
+
+.col-xxl-4,
+.col-xl-4,
+.col-lg-12,
+.col-md-12,
+.col-sm-12 {
+    flex: 1 0 33.33%; 
+    max-width: 33.33%; 
+    padding: 0 15px; 
+    box-sizing:border-box;
+}
+.div button a{
+    background-color: rgb(250, 4, 106);
+    text-decoration-line: none;
+    color: rgb(12, 11, 11);
+}
+.div button :hover{
+    background-color: rgb(209, 209, 226);
+    cursor: crosshair;
+}
